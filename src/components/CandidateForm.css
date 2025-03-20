@@ -1,0 +1,88 @@
+body{background-color:#fce1e4;}
+.form-container {
+  max-width: 700px !important; /* Increase max width */
+  width: 95% !important; /* Ensures responsiveness */
+  margin: 50px auto !important; /* Center the form */
+  padding: 40px !important; /* Increase padding */
+  background: white !important;
+  border-radius: 8px !important;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15) !important;
+}
+.form-container h2{
+text-align:center;
+color:powderblue;}
+
+.form-group {
+  margin-bottom: 15px;
+  width:100%;
+   }
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+select {
+  width: 100%;   padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.document-row {
+  display: flex;
+  gap: 10px;   align-items: center;
+  margin-bottom: 10px; 
+}
+.doc-actions {
+  display: flex;
+  gap: 5px; }
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  width:100px;}
+.button-container{
+   display: flex;
+  justify-content: center;
+  width:100%; 
+  height:100%;}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.form-row {
+  display: flex;
+  gap: 60px; /* Adjust gap for better spacing */
+  align-items: center;
+  justify-content: space-between; /* Distributes fields evenly */
+  margin-bottom: 20px; /* Add more spacing */
+}
+
+
+.form-row .form-group {
+  flex: 1;
+}
+/* Add spacing between stacked input fields */
+.form-group input {
+  margin-bottom: 10px; /* Adjust this value for more/less space */
+}
+.profile{
+gap:10px;
+font-weight:bold;}
+.form-group label {
+  font-weight: bold;
+}
+
+
